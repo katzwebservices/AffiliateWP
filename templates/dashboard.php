@@ -31,7 +31,7 @@ $payment_email = affwp_get_affiliate_email( $affiliate_id );
 	<?php do_action( 'affwp_affiliate_dashboard_notices', $affiliate_id ); ?>
 
 	<h4><?php _e( 'Referral URL Generator', 'affiliate-wp' ); ?></h4>
-
+	
 	<?php do_action( 'affwp_affiliate_dashboard_before_url_generator', $affiliate_id ); ?>
 
 	<div id="affwp-affiliate-dashboard-url-generator">
